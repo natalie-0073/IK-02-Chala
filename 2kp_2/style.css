@@ -1,0 +1,88 @@
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .greenone {
+            display: grid;
+            height: 350px;
+            width: 200px;
+            background-color: #D6E3BC;
+            border-radius: 8%;
+            grid-template-areas: "screen" "buttons";
+            border: 2px black solid;
+        }
+        
+        .screen {
+            display: grid;
+            grid-area: screen;
+            background-color: white;
+            border-radius: 10%;
+            margin: 20px 20px 0px 20px;
+            align-items: center;
+            justify-content: center;
+            border: 2px black solid;
+        }
+        
+        .text {
+            font-size: 50px;
+        }
+        
+        .buttons {
+            display: grid;
+            grid-area: buttons;
+            grid-template-areas: "but1 but2 but3" "but4 but5 but6" "but7 but8 but9";
+            margin: 20px;
+        }
+        
+        .but1,
+        .but2,
+        .but3,
+        .but4,
+        .but5,
+        .but6,
+        .but7,
+        .but8,
+        .but9 {
+            background-color: #3F3151;
+            border-radius: 50%;
+            margin: 10%;
+            border: 2px black solid;
+        }
+        
+        .but1 {
+            grid-area: "but1";
+        }
+        
+        .but2 {
+            grid-area: "but2";
+        }
+        
+        .but3 {
+            grid-area: "but3";
+        }
+        
+        .but4 {
+            grid-area: "but4";
+        }
+        
+        .but5 {
+            grid-area: "but5";
+        }
+        
+        .but6 {
+            grid-area: "but6";
+        }
+        
+        .but7 {
+            grid-area: "but7";
+        }
+        
+        .but8 {
+            grid-area: "but8";
+        }
+        
+        .but9 {
+            grid-area: "but9";
+        }
